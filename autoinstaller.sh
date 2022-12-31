@@ -142,7 +142,7 @@ programs_install() {
 		        box "installing dependencies"
 		        sudo xbps-install -S base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel
                 src_pkg_repo_install
-                sudo xbps-install -S dmenu kitty xdotool polybar sxhkd nitrogen xwallpaper fzf font-awesome alacritty firefox pcmanfm telegram-desktop pulseaudio discord chromium;
+                sudo xbps-install -S dmenu kitty xdotool polybar sxhkd nitrogen xwallpaper fzf font-awesome alacritty pcmanfm telegram-desktop chromium;
                 cd $HOME/.local/
                 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install && cd $HOME/.local
  		        box1 "for dmenu to work correctly you need to have my config installed"
