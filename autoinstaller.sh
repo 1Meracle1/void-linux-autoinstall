@@ -238,7 +238,7 @@ herbst_file_fetch() {
             xbps-install)
                 cd $HOME/.config/
                 # git clone https://github.com/jdpedersen1/herbstluftwm.git
-                git clone https://github.com/1Meracle1/void-linux-herbstluftwm
+                git clone https://github.com/1Meracle1/void-linux-herbstluftwm.git
                 cd $HOME/.config/herbstluftwm
                 mv polybar_void_config $HOME/.config/herbstluftwm/polybar_config && rm polybar_arch_config
                 chmod -R +x $HOME/.config/herbstluftwm/
